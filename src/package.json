@@ -1,0 +1,28 @@
+{
+  "name": "AlexaSkillMagicMirrorTakeNotes",
+  "version": "1.0.0",
+  "description": "Lambda function for Alexa Skill - Magic Mirror Take Notes. Alexa saves your notes in DynamoDB with a sort key you defined, then Magic mirror can use that key to display your notes.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanaz/AS-MagicMirrorTakeNotes"
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "AWS Lambda",
+    "Alexa",
+    "skill",
+    "DynamoDB"
+  ],
+  "author": "Joanna Zhang",
+  "contributors": "https://github.com/joanaz/AS-MagicMirrorTakeNotes/graphs/contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joanaz/AS-MagicMirrorTakeNotes/issues"
+  },
+  "homepage": "https://github.com/joanaz/AS-MagicMirrorTakeNotes#readme",
+  "dependencies": {
+    "alexa-sdk": "latest"
+  }
+}

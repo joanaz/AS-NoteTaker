@@ -1,0 +1,31 @@
+{
+  "intents": [{
+    "intent": "AMAZON.HelpIntent"
+  }, {
+    "intent": "AMAZON.StopIntent"
+  }, {
+    "intent": "AMAZON.CancelIntent"
+  }, {
+    "intent": "NoteTakingIntent",
+    "slots": [{
+      "name": "note",
+      "type": "AMAZON.LITERAL"
+    }]
+  }, {
+    "intent": "ReadAllNotesIntent"
+  }, {
+    "intent": "ReadNoteIntent",
+    "slots": [{
+      "name": "readIndex",
+      "type": "AMAZON.NUMBER"
+    }]
+  }, {
+    "intent": "DeleteAllNotesIntent"
+  }, {
+    "intent": "DeleteNoteIntent",
+    "slots": [{
+      "name": "deleteIndex",
+      "type": "AMAZON.NUMBER"
+    }]
+  }]
+}

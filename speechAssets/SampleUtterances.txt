@@ -1,0 +1,48 @@
+NoteTakingIntent take a note {flexible sensors for wearables|note}
+NoteTakingIntent take a note {interactive orange juice|note}
+NoteTakingIntent take a note {interactive juice|note}
+NoteTakingIntent take a note {interactive|note}
+
+NoteTakingIntent take down {flexible sensors for wearables|note}
+NoteTakingIntent take down {sensors for wearables|note}
+NoteTakingIntent take down {cloud drones|note}
+NoteTakingIntent take down {flexible|note}
+
+NoteTakingIntent take note {flexible sensors for wearables|note}
+NoteTakingIntent take note {interactive orange juice|note}
+NoteTakingIntent take note {flying saucer|note}
+NoteTakingIntent take note {saucer|note}
+
+NoteTakingIntent note {flexible sensors for wearables|note}
+NoteTakingIntent note {interactive orange juice|note}
+NoteTakingIntent note {whatever|note}
+NoteTakingIntent note {pcb printer|note}
+
+NoteTakingIntent {mirror mirror on the wall|note}
+NoteTakingIntent {mirror mirror wall|note}
+NoteTakingIntent {mirror mirror|note}
+NoteTakingIntent {mirror|note}
+
+ReadAllNotesIntent read all my notes
+ReadAllNotesIntent read all notes
+ReadAllNotesIntent read my notes
+ReadAllNotesIntent read notes
+
+ReadNoteIntent read my note number {readIndex}
+ReadNoteIntent read note number {readIndex}
+ReadNoteIntent read number {readIndex}
+ReadNoteIntent what's my note number {readIndex}
+ReadNoteIntent what's note number {readIndex}
+
+DeleteAllNotesIntent delete all my notes
+DeleteAllNotesIntent delete all notes
+DeleteAllNotesIntent delete my notes
+DeleteAllNotesIntent delete all
+
+DeleteNoteIntent delete note number {deleteIndex}
+DeleteNoteIntent delete my note number {deleteIndex}
+DeleteNoteIntent delete number {deleteIndex}
+
+
+
+
