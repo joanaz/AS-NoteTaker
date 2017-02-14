@@ -1,27 +1,81 @@
+HelloIntent hello
+HelloIntent hi
+HelloIntent how are you
+
+NoteTakingIntent take my note {either of the keys can be used to encrypt a message the opposite key from the one used to encrypt the message is used for decryption|note}
+NoteTakingIntent take my note {the opposite key from the one used to encrypt the message is used for decryption either of the keys can be used to encrypt a message|note}
+NoteTakingIntent take my note {asymmetric cryptography also known as public key cryptography uses public and private keys to encrypt and decrypt data|note}
+NoteTakingIntent take my note {public key cryptography also known as asymmetric cryptography uses public and private keys to encrypt and decrypt data|note}
+NoteTakingIntent take my note {the keys are simply large numbers that have been paired together but are not identical|note}
+NoteTakingIntent take my note {the keys are not identical but are simply large numbers that have been paired together|note}
+NoteTakingIntent take my note {one key in the pair can be shared with everyone it is called the public key|note}
+NoteTakingIntent take my note {asymmetric cryptography uses public and private keys to encrypt and decrypt data|note}
+NoteTakingIntent take my note {the other key in the pair is kept secret it is called the private key|note} 
+NoteTakingIntent take my note {the private key it is called the other key in the pair is kept secret|note}
+NoteTakingIntent take my note {the private key it is called in the pair is kept secret|note}  
+NoteTakingIntent take my note {the other key in the pair is kept secret|note}
+NoteTakingIntent take my note {dinner with Linda at Hao tomorrow at six|note}
+NoteTakingIntent take my note {lunch with John at Maru tomorrow at twelve|note}
+NoteTakingIntent take my note {mirror mirror on the wall|note}
+NoteTakingIntent take my note {flexible sensors for wearables|note}
+NoteTakingIntent take my note {interactive orange juice|note}
+NoteTakingIntent take my note {mirror mirror wall|note}
+NoteTakingIntent take my note {mirror mirror|note}
+NoteTakingIntent take my note {interactive juice|note}
+NoteTakingIntent take my note {pcb printer|note}
+NoteTakingIntent take my note {interactive|note}
+NoteTakingIntent take my note {mirror|note}
+NoteTakingIntent take my note {whatever|note}
+
+NoteTakingIntent take a note {either of the keys can be used to encrypt a message the opposite key from the one used to encrypt the message is used for decryption|note}
+NoteTakingIntent take a note {the opposite key from the one used to encrypt the message is used for decryption either of the keys can be used to encrypt a message|note}
+NoteTakingIntent take a note {asymmetric cryptography also known as public key cryptography uses public and private keys to encrypt and decrypt data|note}
+NoteTakingIntent take a note {public key cryptography also known as asymmetric cryptography uses public and private keys to encrypt and decrypt data|note}
+NoteTakingIntent take a note {the keys are simply large numbers that have been paired together but are not identical|note}
+NoteTakingIntent take a note {the keys are not identical but are simply large numbers that have been paired together|note}
+NoteTakingIntent take a note {one key in the pair can be shared with everyone it is called the public key|note}
+NoteTakingIntent take a note {asymmetric cryptography uses public and private keys to encrypt and decrypt data|note}
+NoteTakingIntent take a note {the other key in the pair is kept secret it is called the private key|note} 
+NoteTakingIntent take a note {the private key it is called the other key in the pair is kept secret|note}
+NoteTakingIntent take a note {the private key it is called in the pair is kept secret|note}  
+NoteTakingIntent take a note {the other key in the pair is kept secret|note}
+NoteTakingIntent take a note {dinner with Linda at Hao tomorrow at six|note}
+NoteTakingIntent take a note {lunch with John at Maru tomorrow at twelve|note}
+NoteTakingIntent take a note {mirror mirror on the wall|note}
 NoteTakingIntent take a note {flexible sensors for wearables|note}
 NoteTakingIntent take a note {interactive orange juice|note}
+NoteTakingIntent take a note {mirror mirror wall|note}
+NoteTakingIntent take a note {mirror mirror|note}
 NoteTakingIntent take a note {interactive juice|note}
+NoteTakingIntent take a note {pcb printer|note}
 NoteTakingIntent take a note {interactive|note}
+NoteTakingIntent take a note {mirror|note}
+NoteTakingIntent take a note {whatever|note}
 
-NoteTakingIntent take down {flexible sensors for wearables|note}
-NoteTakingIntent take down {sensors for wearables|note}
-NoteTakingIntent take down {cloud drones|note}
-NoteTakingIntent take down {flexible|note}
-
+NoteTakingIntent take note {either of the keys can be used to encrypt a message the opposite key from the one used to encrypt the message is used for decryption|note}
+NoteTakingIntent take note {the opposite key from the one used to encrypt the message is used for decryption either of the keys can be used to encrypt a message|note}
+NoteTakingIntent take note {asymmetric cryptography also known as public key cryptography uses public and private keys to encrypt and decrypt data|note}
+NoteTakingIntent take note {public key cryptography also known as asymmetric cryptography uses public and private keys to encrypt and decrypt data|note}
+NoteTakingIntent take note {the keys are simply large numbers that have been paired together but are not identical|note}
+NoteTakingIntent take note {the keys are not identical but are simply large numbers that have been paired together|note}
+NoteTakingIntent take note {one key in the pair can be shared with everyone it is called the public key|note}
+NoteTakingIntent take note {asymmetric cryptography uses public and private keys to encrypt and decrypt data|note}
+NoteTakingIntent take note {the other key in the pair is kept secret it is called the private key|note} 
+NoteTakingIntent take note {the private key it is called the other key in the pair is kept secret|note}
+NoteTakingIntent take note {the private key it is called in the pair is kept secret|note}  
+NoteTakingIntent take note {the other key in the pair is kept secret|note}
+NoteTakingIntent take note {dinner with Linda at Hao tomorrow at six|note}
+NoteTakingIntent take note {lunch with John at Maru tomorrow at twelve|note}
+NoteTakingIntent take note {mirror mirror on the wall|note}
 NoteTakingIntent take note {flexible sensors for wearables|note}
 NoteTakingIntent take note {interactive orange juice|note}
+NoteTakingIntent take note {mirror mirror wall|note}
+NoteTakingIntent take note {mirror mirror|note}
 NoteTakingIntent take note {flying saucer|note}
+NoteTakingIntent take note {pcb printer|note}
+NoteTakingIntent take note {mirror|note}
+NoteTakingIntent take note {whatever|note}
 NoteTakingIntent take note {saucer|note}
-
-NoteTakingIntent note {flexible sensors for wearables|note}
-NoteTakingIntent note {interactive orange juice|note}
-NoteTakingIntent note {whatever|note}
-NoteTakingIntent note {pcb printer|note}
-
-NoteTakingIntent {mirror mirror on the wall|note}
-NoteTakingIntent {mirror mirror wall|note}
-NoteTakingIntent {mirror mirror|note}
-NoteTakingIntent {mirror|note}
 
 ReadAllNotesIntent read all my notes
 ReadAllNotesIntent read all notes
@@ -31,6 +85,7 @@ ReadAllNotesIntent read notes
 ReadNoteIntent read my note number {readIndex}
 ReadNoteIntent read note number {readIndex}
 ReadNoteIntent read number {readIndex}
+ReadNoteIntent read note {readIndex}
 ReadNoteIntent what's my note number {readIndex}
 ReadNoteIntent what's note number {readIndex}
 
@@ -42,7 +97,11 @@ DeleteAllNotesIntent delete all
 DeleteNoteIntent delete note number {deleteIndex}
 DeleteNoteIntent delete my note number {deleteIndex}
 DeleteNoteIntent delete number {deleteIndex}
+DeleteNoteIntent delete note {deleteIndex}
 
-
-
-
+UserIDIntent what's my database user i. d.
+UserIDIntent what's my user i. d.
+UserIDIntent what's my user identifier
+UserIDIntent what's my identifier
+UserIDIntent my user i. d.
+UserIDIntent my identifier
