@@ -28,7 +28,7 @@ var languageStrings = {
             "HELP_CARD_TITLE": "Help",
             "STOP_MESSAGE": "<say-as interpret-as='interjection'>Cheerio!</say-as>",
             "STOP_CARD_TITLE": "Goodbye",
-            "STOP_CARD": "Thanks for using Note Taker!",
+            "STOP_CARD": "Thanks for using the Note Taker!",
             "NEW_NOTE_MESSAGE": "<say-as interpret-as='interjection'>Dun dun dun.</say-as> I have taken a new note. Your <say-as interpret-as='ordinal'>%s</say-as> note is %s.",
             "NEW_NOTE_TITLE": "New Note Added",
             "READ_ALL_NOTES_MESSAGE": "<say-as interpret-as='interjection'>As you wish.</say-as> You have the following notes: %s",
@@ -147,10 +147,10 @@ var handlers = {
         this.emit(':askWithCard', this.t("HELP_MESSAGE"), this.t("HELP_MESSAGE"), this.t("HELP_CARD_TITLE"), this.t("WELCOME_CARD"));
     },
     'AMAZON.StopIntent': function() {
-        this.emit(':StopSession');
+        this.emit('StopSession');
     },
     'AMAZON.CancelIntent': function() {
-        this.emit(':StopSession');
+        this.emit('StopSession');
     },
     'StopSession': function() {
         this.emit(':tellWithCard', this.t("STOP_MESSAGE"), this.t("STOP_CARD_TITLE"), this.t("STOP_CARD"))

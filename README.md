@@ -80,8 +80,8 @@ Alexa: "Yay! All of your notes are deleted."
 
 ### Take Note
 
-- take my note {either of the keys can be used to encrypt a message the opposite key from the one used to encrypt the message is used for decryption}
-- take a note {dinner with Linda at Hao tomorrow at six}
+- take my note {asymmetric cryptography uses public and private keys to encrypt and decrypt data}
+- take a note {dinner with Linda at six tomorrow at Hao}
 - take note {interactive orange juice}
 
 ### Read all notes
@@ -123,10 +123,10 @@ Alexa: "Yay! All of your notes are deleted."
 
 *Note: This is only for the use of the [Magic Mirror Module Note Taker](https://github.com/joanaz/MMM-NoteTaker)*
 
-- what's my database user i. d.
-- what's my user i. d.
+- what's my database user ID
+- what's my user ID
 - what's my user identifier
 - what's my identifier
-- my user i. d.
+- my user ID
 - my identifier
 
