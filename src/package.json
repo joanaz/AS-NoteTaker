@@ -1,11 +1,11 @@
 {
-  "name": "AlexaSkillMagicMirrorTakeNotes",
+  "name": "AlexaSkillNoteTaker",
   "version": "1.0.0",
   "description": "Lambda function for Alexa Skill - Magic Mirror Take Notes. Alexa saves your notes in DynamoDB with a sort key you defined, then Magic mirror can use that key to display your notes.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joanaz/AS-MagicMirrorTakeNotes"
+    "url": "git+https://github.com/joanaz/AS-NoteTaker"
   },
   "keywords": [
     "magic mirror",
@@ -16,12 +16,12 @@
     "DynamoDB"
   ],
   "author": "Joanna Zhang",
-  "contributors": "https://github.com/joanaz/AS-MagicMirrorTakeNotes/graphs/contributors",
+  "contributors": "https://github.com/joanaz/AS-NoteTaker/graphs/contributors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joanaz/AS-MagicMirrorTakeNotes/issues"
+    "url": "https://github.com/joanaz/AS-NoteTaker/issues"
   },
-  "homepage": "https://github.com/joanaz/AS-MagicMirrorTakeNotes#readme",
+  "homepage": "https://github.com/joanaz/AS-NoteTaker#readme",
   "dependencies": {
     "alexa-sdk": "latest"
   }

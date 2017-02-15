@@ -45,78 +45,88 @@ To run this skill you need to do two things:
 ## One-shot Examples
 
 ```
-User: "Alexa, ask Note Taker to take down lunch with Linda at Maru tomorrow"
-Alexa: "Ok, I have taken a new note. Your note number nine is lunch with Linda at Maru tomorrow"
+User: "Alexa, ask Note Taker to take my note lunch with Linda at Maru tomorrow"
+Alexa: "Dun dun dun. I have taken a new note. Your third note is lunch with Linda at Maru tomorrow"
 ```
 
 ```
 User: "Alexa, ask Note Taker to read my notes"
-Alexa: "You have the following notes: ......"
+Alexa: "As you wish. You have the following notes: ......"
 ```
 
 ```
-User: "Alexa, ask Note Taker to read note number nine"
-Alexa: "Your note number nine is lunch with Linda at Maru tomorrow"
+User: "Alexa, ask Note Taker to read note number three"
+Alexa: "Aha! Your third note is lunch with Linda at Maru tomorrow"
 ```
 
 ```
-User: "Alexa, ask Note Taker to delete note number nine"
-Alexa: "Note number nine lunch with Linda at Maru tomorrow is deleted"
+User: "Alexa, ask Note Taker to delete note number three"
+Alexa: "Good riddance. Your third note, lunch with Linda at Maru tomorrow is deleted"
 ```
 
 ```
 User: "Alexa, ask Note Taker to delete my notes"
-Alexa: "All of your notes are deleted."
+Alexa: "Yay! All of your notes are deleted."
 ```
 
 
 ## List of commands
-NoteTakingIntent take a note {flexible sensors for wearables|note}
-NoteTakingIntent take a note {interactive orange juice|note}
-NoteTakingIntent take a note {interactive juice|note}
-NoteTakingIntent take a note {interactive|note}
 
-NoteTakingIntent take down {flexible sensors for wearables|note}
-NoteTakingIntent take down {sensors for wearables|note}
-NoteTakingIntent take down {cloud drones|note}
-NoteTakingIntent take down {flexible|note}
+### Say Hello
 
-NoteTakingIntent take note {flexible sensors for wearables|note}
-NoteTakingIntent take note {interactive orange juice|note}
-NoteTakingIntent take note {flying saucer|note}
-NoteTakingIntent take note {saucer|note}
+- hello
+- hi
+- how are you
 
-NoteTakingIntent note {flexible sensors for wearables|note}
-NoteTakingIntent note {interactive orange juice|note}
-NoteTakingIntent note {whatever|note}
-NoteTakingIntent note {pcb printer|note}
+### Take Note
 
-NoteTakingIntent {mirror mirror on the wall|note}
-NoteTakingIntent {mirror mirror wall|note}
-NoteTakingIntent {mirror mirror|note}
-NoteTakingIntent {mirror|note}
+- take my note {either of the keys can be used to encrypt a message the opposite key from the one used to encrypt the message is used for decryption}
+- take a note {dinner with Linda at Hao tomorrow at six}
+- take note {interactive orange juice}
 
-ReadAllNotesIntent read all my notes
-ReadAllNotesIntent read all notes
-ReadAllNotesIntent read my notes
-ReadAllNotesIntent read notes
+### Read all notes
 
-ReadNoteIntent read my note number {readIndex}
-ReadNoteIntent read note number {readIndex}
-ReadNoteIntent read number {readIndex}
-ReadNoteIntent what's my note number {readIndex}
-ReadNoteIntent what's note number {readIndex}
+- read all my notes
+- read all notes
+- read my notes
+- read notes
 
-DeleteAllNotesIntent delete all my notes
-DeleteAllNotesIntent delete all notes
-DeleteAllNotesIntent delete my notes
-DeleteAllNotesIntent delete all
+### Read a note
 
-DeleteNoteIntent delete note number {deleteIndex}
-DeleteNoteIntent delete my note number {deleteIndex}
-DeleteNoteIntent delete number {deleteIndex}
+*Note: readIndex has to be a cardinal number, not an ordinal number*
+
+- read my note number {readIndex}
+- read note number {readIndex}
+- read number {readIndex}
+- read note {readIndex}
+- what's my note number {readIndex}
+- what's note number {readIndex}
+
+### Delete all notes
+
+- delete all my notes
+- delete all notes
+- delete my notes
+- delete all
+
+### Delete a note
+
+*Note: deleteIndex has to be a cardinal number, not an ordinal number*
+
+- delete note number {deleteIndex}
+- delete my note number {deleteIndex}
+- delete number {deleteIndex}
+- delete note {deleteIndex}
 
 
-## To Do
-intent to read user ID
+### Get Alexa User ID 
+
+*Note: This is only for the use of the [Magic Mirror Module Note Taker](https://github.com/joanaz/MMM-NoteTaker)*
+
+- what's my database user i. d.
+- what's my user i. d.
+- what's my user identifier
+- what's my identifier
+- my user i. d.
+- my identifier
 
