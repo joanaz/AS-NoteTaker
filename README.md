@@ -21,13 +21,21 @@ To run this skill you need to do two things:
 3. Choose __Blank Blueprint__
 4. Choose trigger __Alexa Skills Kit__, click "Next"
 5. Name the Lambda Function, select the runtime as __Node.js__
-6. Go to the __src__ directory, select all files and then create a zip file, make sure the zip file does not contain the src directory itself, otherwise Lambda function will not work.
-7. Select __Code entry type__ as "Upload a .ZIP file" and then upload the .zip file to the Lambda
-8. Keep the Handler as index.handler (this refers to the main js file in the zip).
-9. __Create new role from template__ and name it.
-10. Leave the Advanced settings as the defaults.
-11. Click "Next" and review the settings then click "Create Function"
-12. Copy the __ARN__ from the top right to be used later in the Alexa Skill Setup
+6. Go to your local __src__ directory, select all files and then create a zip file, make sure the zip file does not contain the src directory itself, otherwise Lambda function will not work.
+7. Go back to the AWS Lambda console, select __Code entry type__ as "Upload a .ZIP file" and then upload the .zip file to the Lambda
+8. Keep the Handler as index.handler (this refers to the main js file in the zip)
+9. Create a new role for full access of DynamoDB
+    a. Go to the __IAM__ service from the AWS Console
+    b. Click on Roles, then __Create New Role__
+    c. Call this Role __lambda-dynamo-full-access-role__
+    d. Select __AWS Lambda__ as the Role Type 
+    d. Select policies __AmazonDynamoDBFullAccess__ and __CloudWatchFullAccess__ (for debug)
+    e. Click __Next__, then __Create Role__
+10. Go back to the Lambda console, __Choose an existing role__ 
+11. Choose __lambda-dynamo-full-access-role__
+12. Leave the Advanced settings as the defaults
+13. Click "Next" and review the settings then click "Create Function"
+14. Copy the __ARN__ from the top right to be used later in the Alexa Skill Setup
 
 ### Alexa Skill Setup
 
