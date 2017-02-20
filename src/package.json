@@ -13,7 +13,8 @@
     "AWS Lambda",
     "Alexa",
     "skill",
-    "DynamoDB"
+    "DynamoDB",
+    "SSML"
   ],
   "author": "Joanna Zhang",
   "contributors": "https://github.com/joanaz/AS-NoteTaker/graphs/contributors",
