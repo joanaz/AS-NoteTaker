@@ -1,7 +1,7 @@
 # Alexa Skill Note Taker
 An [AWS Lambda](http://aws.amazon.com/lambda) function of an Alexa skill for taking notes. It saves your notes in DynamoDB, so your notes can be read out or deleted later.
 
-This Alexa skill is now live. You can enable it [here](http://alexa.amazon.com/spa/index.html#skills/dp/B06W9JQV4F/?ref=skill_dsk_skb_sr_0) or [here](https://www.amazon.com/Joanna-Zhang-Note-Taker/dp/B06W9JQV4F/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1487608455&sr=1-1).
+###This Alexa skill is now live. You can enable it [here](http://alexa.amazon.com/spa/index.html#skills/dp/B06W9JQV4F/?ref=skill_dsk_skb_sr_0) or [here](https://www.amazon.com/Joanna-Zhang-Note-Taker/dp/B06W9JQV4F/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1487608455&sr=1-1).
 
 However, to get it to work with your [Magic Mirror](https://github.com/MichMich/MagicMirror) Module - [Note Taker](https://github.com/joanaz/MMM-NoteTaker), you still have to create your own Lambda function & Alexa skill by following the instructions below.
 
